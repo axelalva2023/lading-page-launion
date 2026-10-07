@@ -205,7 +205,7 @@ header nav ul li a:hover{
 
 
 .contenedor-general-contacto div form:hover{
-    transform: scale(1.0);
+    transform: scale(0.9);
 }
 
 /*FOOTER*/
