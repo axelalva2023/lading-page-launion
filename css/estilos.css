@@ -1,0 +1,341 @@
+/*TIPOGRAFIA*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/*RESET*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;;
+}
+
+#boton-hamburguesa{
+    display: none;
+}
+
+.icono-hamburguesa{
+    display: none;
+}
+
+/*HEADER*/
+
+header{
+    background: linear-gradient(blueviolet, red);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+header img{
+    border-radius: 50%;
+    opacity: 0.8;
+}
+
+header img:hover{
+    transform: scale(1.1);
+}
+
+header nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header nav ul li{
+    margin: 10px;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1em;
+}
+
+header nav ul li a:hover{
+    color: black;
+}
+
+/*HERO*/
+
+.hero{
+    height: calc(100vh - 84.06px);
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgIZJ675C87m_jKh3zG7V3C0nVpkf8fwIWp8zNnswMhg&s=10");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero h1{
+    border: 2px solid white;
+    font-size: 3em;
+    padding: 1em;
+    color: white;
+}
+
+.hero input{
+    margin-top: 1em;
+    border-radius: 50%;
+    padding: 1em;
+}
+
+.hero input:hover{
+    background-color: blueviolet;
+}
+
+/*NOSOTROS*/
+
+.nosotros{
+    background: linear-gradient(blueviolet, red);
+    padding: 2em;
+}
+
+.contenedor-general-nosotros{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.contenedor-general-nosotros div img{
+    border-radius: 50%;
+    opacity: 0.8;
+}
+
+.parrafo{
+    width: 50%;
+    font-size: 1.5em;
+}
+
+/*SERVICIOS*/
+
+.servicios{
+    background: linear-gradient(blueviolet, red);
+    padding: 2em;
+}
+
+.contenedor-general-servicios{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
+}
+
+.contenedor-general-servicios div img{
+    border-radius: 50%;
+    opacity: 0.8;
+}
+
+/*PRODUCTOS*/
+
+.productos{
+    background: linear-gradient(blueviolet, red);
+}
+
+.separador{
+    background-color: black;
+    text-align: center;
+    color: white;
+    font-size: 2em;
+    padding: 0.5em;
+}
+
+.contenedor-general-productos{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 1.5em;
+}
+
+.contenedor-general-productos div{
+    text-align: center;
+    border: 2px solid black;
+    box-shadow: -1px 3px 5px 15px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -1px 3px 5px 15px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 3px 5px 15px rgba(0,0,0,0.75);
+    background-color: white;
+    padding-bottom: 0.5em;
+    margin: 1.5em;
+}
+
+.contenedor-general-productos div img{
+    object-fit: cover;
+    opacity: 0.9;
+}
+
+.contenedor-general-productos div:hover{
+    transform: scale(1.1);
+}
+
+.contenedor-general-productos div input{
+    border-radius: 50%;
+    padding: 0.5em;
+}
+
+.contenedor-general-productos div input:hover{
+    background-color: blueviolet;
+}
+
+/*CONTACTO*/
+
+.contacto{
+    background: linear-gradient(blueviolet,red);
+}
+
+.contenedor-general-contacto{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 1em;
+}
+
+.contenedor-general-contacto div{
+    margin: 1.5em;
+}
+
+
+.contenedor-general-contacto div form:hover{
+    transform: scale(1.1);
+}
+
+/*FOOTER*/
+
+footer{
+    background: linear-gradient(blueviolet, red);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 1.5em;
+}
+
+footer img{
+    border-radius: 50%;
+    opacity: 0.8;
+}
+
+footer img:hover{
+    transform: scale(1.1);
+}
+
+footer div ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+footer div ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+footer div ul li a:hover{
+    color: black;
+}
+
+footer div ul li{
+    margin: 10px;
+}
+
+footer p{
+    color: white;
+}
+
+.wsp{
+    font-size: 4em;
+    position: fixed;
+    bottom: 0;
+    z-index: 1000;
+    right: 0;
+}
+
+.modo-claro{
+    background-color: white;
+    padding: 1em;
+    text-align: center;
+    box-shadow: -1px 3px 5px 15px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -1px 3px 5px 15px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 3px 5px 15px rgba(0,0,0,0.75);
+}
+
+.modo-oscuro{
+    background-color: black;
+    color: orange;
+    padding: 1em;
+    text-align: center;
+    box-shadow: -1px 3px 5px 15px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -1px 3px 5px 15px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 3px 5px 15px rgba(0,0,0,0.75);
+}
+
+/*RESPONSIVE*/
+
+@media screen and (max-width:550px) {
+
+    header{
+        position: static;
+    }
+
+    .icono-hamburguesa{
+        display: block;
+        font-size: 2em;
+    }
+
+    .menu-navegacion{
+        display: none;
+        background-color: black;
+        flex-direction: column;
+        position: absolute;
+        top: 90px;
+        left: 190px;
+    }
+
+    #boton-hamburguesa:checked ~ nav .menu-navegacion{
+        display: flex;
+    }
+
+    header nav ul li a:hover{
+        color: blueviolet;
+    }
+
+    .hero h1{
+        font-size: 2em;
+    }
+
+    .contenedor-general-nosotros{
+        flex-direction: column;
+    }
+    .parrafo{
+        font-size: 1.5em;
+        width: 100%;
+    }
+
+    .contenedor-general-nosotros div img{
+        width: 100%;
+    }
+
+    iframe{
+        width: 100%;
+    }
+
+    .contenedor-general-servicios{
+        flex-direction: column;
+    }
+
+    .contenedor-general-servicios div img{
+        width: 100%;
+    }
+}

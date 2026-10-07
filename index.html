@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./css/estilos.css">
+    <title>La union</title>
+</head>
+<body>
+    <header>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5OrBpOcuJG1m-rCT9NWkmt2kGzjTko0WSEw&s" alt="logo-pagina" width="150px">
+        <input type="checkbox" id="boton-hamburguesa" name="boton-hamburguesa">
+        <label for="boton-hamburguesa" class="icono-hamburguesa"><i class="bi bi-list"></i></label>
+        <nav>
+            <ul class="menu-navegacion">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero" id="inicio">
+            <h1>Bienvenidos!</h1>
+            <a href="#contacto"><input type="button" value="COMPRE YA"></a>
+        </section>
+        <section class="nosotros" id="nosotros">
+            <div class="contenedor-general-nosotros">
+                <div>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5OrBpOcuJG1m-rCT9NWkmt2kGzjTko0WSEw&s" alt="foto-nosotros" width="250px">
+                </div>
+                <div class="parrafo">
+                    <h2>Nosotros:</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia provident sunt repudiandae doloremque! Eos sapiente exercitationem nisi cumque debitis asperiores ab natus reprehenderit a voluptates? Velit dolores accusamus maiores beatae?</p>
+                </div>
+            </div>
+        </section>
+        <section class="servicios" id="servicios">
+            <div class="contenedor-general-servicios">
+                <div>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1K96r5sSjoTZ4Pn9HdbrOW1OrSGJ3thGGFA&s" alt="foto-nosotros" width="250px">
+                </div>
+                <div class="parrafo">
+                    <h2>Servicios:</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia provident sunt repudiandae doloremque! Eos sapiente exercitationem nisi cumque debitis asperiores ab natus reprehenderit a voluptates? Velit dolores accusamus maiores beatae?</p>
+                </div>
+            </div>
+        </section>
+        <section class="productos" id="productos"> 
+            <h2 class="separador">PRODUCTOS:</h2>
+            <div class="contenedor-general-productos">
+                <div>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAfP9C7fw328BoZGwvzo1C53a2mq-CyYuI7g&s" alt="foto-producto" width="200px">
+                    <h3>Nombre</h3>
+                    <p>Precio</p>
+                    <input type="button" value="Comprar">
+                </div>
+                <div>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAfP9C7fw328BoZGwvzo1C53a2mq-CyYuI7g&s" alt="foto-producto" width="200px">
+                    <h3>Nombre</h3>
+                    <p>Precio</p>
+                    <input type="button" value="Comprar">
+                </div>
+                <div>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAfP9C7fw328BoZGwvzo1C53a2mq-CyYuI7g&s" alt="foto-producto" width="200px">
+                    <h3>Nombre</h3>
+                    <p>Precio</p>
+                    <input type="button" value="Comprar">
+                </div>
+            </div>
+        </section>
+        <section class="contacto" id="contacto">
+            <h2 class="separador">CONTACTO:</h2>
+            <div class="contenedor-general-contacto">
+                <div>
+                    <form id="formulario" class="modo-claro">
+                        <h4>Complete el siguiente formulario:</h4>
+                        <div>
+                            <label for="nombre">Ingresa tu nombre:</label><input type="text" id="nombre" name="nombre" placeholder="Axel">
+                        </div>
+                        <div>
+                            <label for="apellido">Ingresa tu apellido:</label><input type="text" id="apellido" name="apellido" placeholder="Cascardo">
+                        </div>
+                        <div>
+                            <label for="correo">Ingrese su email:</label><input type="email" name="correo" id="correo" placeholder="pepito@gmail.com">
+                        </div>
+                        <div>
+                            <label for="producto">Eliga una opcion:</label><select name="producto" id="producto">
+                                <option value="">Bebidas</option>
+                                <option value="">Verduleria</option>
+                                <option value="">Electronica</option>
+                            </select>
+                        </div>
+                        <div>
+                            <input type="submit" value="Enviar datos">
+                        </div>
+                        <div>
+                            <input type="button" value="Modo oscuro" id="boton">
+                        </div>
+                    </form>
+                </div>
+                <div>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d820.8705989107793!2d-58.382421052749066!3d-34.61724793325133!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccb4a694ab7c1%3A0x576643d06c9ed774!2sEl%20rancherito!5e0!3m2!1ses-419!2sar!4v1764795609459!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5OrBpOcuJG1m-rCT9NWkmt2kGzjTko0WSEw&s" alt="pie-pagina" width="150px">
+        <div>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </div>
+        <p>Todos los derechos reservados &copy; 2026</p>
+    </footer>
+
+    <i class="bi bi-whatsapp wsp"></i>
+
+
+    <script src="./js/main.js"></script>
+</body>
+</html>
